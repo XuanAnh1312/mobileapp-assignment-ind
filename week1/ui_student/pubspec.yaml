@@ -1,0 +1,28 @@
+#file nay có chức năng quản lý toàn bộ cấu hình của dự án Flutter, bao gồm tên dự án, phiên bản, các dependencies và các thiết lập khác. Đây là một phần quan trọng trong việc xây dựng và triển khai ứng dụng Flutter.
+#đảm nhận 4 nhiệm vụ chính:
+  #khai báo tài nguyên tĩnh assets: Đây là nơi bạn liệt kê các tệp hình ảnh, âm thanh hoặc các tài nguyên khác mà ứng dụng của bạn sẽ sử dụng. Ví dụ, nếu bạn có một hình ảnh logo, bạn sẽ khai báo đường dẫn đến tệp đó trong phần assets.
+  #quản lý dependencies: Đây là nơi bạn liệt kê các thư viện và gói mà ứng dụng của bạn phụ thuộc vào. Flutter sẽ tự động tải xuống và quản lý các dependencies này khi bạn xây dựng ứng dụng.
+  #cấu hình môi trường: Bạn có thể chỉ định phiên bản SDK của Dart mà ứng dụng của bạn yêu cầu. Điều này giúp đảm bảo rằng ứng dụng của bạn sẽ chạy trên các phiên bản Dart tương thích.
+  #khai báo thông tin dự án: Bạn có thể cung cấp tên dự án, mô tả và phiên bản của ứng dụng. Điều này giúp người khác hiểu về dự án của bạn và quản lý các phiên bản khác nhau của ứng dụng.
+name: ui_student
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/089306017838_XuanAnh.png
