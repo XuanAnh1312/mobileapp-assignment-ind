@@ -1,9 +1,9 @@
-class Students {
+class Student {
   String name;
   String? email;
   String? phone; 
 
-  Students (
+  Student (
   {
     required this.name,
     this.email,
