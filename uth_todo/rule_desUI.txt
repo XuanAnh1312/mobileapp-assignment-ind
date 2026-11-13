@@ -1,0 +1,5 @@
+- app icon (logo) đặt ở reference/logo.png
+- kích thước được thống nhất đơn vị là px
+_mainBlue: #2F5BEA
+_mainBlack: #1C1C1E
+_mainWhite: #FFFFFF
